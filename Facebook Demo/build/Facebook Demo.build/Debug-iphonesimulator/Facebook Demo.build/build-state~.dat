@@ -1,0 +1,916 @@
+TFacebook Demo
+v7
+r0
+t321113979.127317
+cCheck dependencies
+cProcessInfoPlistFile "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Info.plist" Facebook_Demo-Info.plist
+cCompileXIB "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/MainWindow.xib"
+cCompileXIB "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/RootViewController.xib"
+cCpResource "build/Debug-iphonesimulator/Facebook Demo.app/FBDialog.bundle" "External Frameworks/Facebook SDK/FBDialog.bundle"
+cCompileXIB "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/StatusViewController.xib"
+cCompileXIB "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostLinkViewController.xib"
+cCompileXIB "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/ScreenShotViewController.xib"
+cCpResource "build/Debug-iphonesimulator/Facebook Demo.app/icodeblog-icon.png" icodeblog-icon.png
+cProcessPCH /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch.gch Facebook_Demo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/main.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/Facebook_DemoAppDelegate.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/Facebook_DemoAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/RootViewController.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/Facebook.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/Facebook.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBDialog.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBDialog.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBImageView.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBImageView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBLoginDialog.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBLoginDialog.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBRequest.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBRequest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSString+HTML.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/NSString+HTML.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSObject+SBJSON.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSObject+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSString+SBJSON.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSString+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJSON.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonBase.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonParser.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonWriter.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBFeedPost.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBFeedPost.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBRequestWrapper.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBRequestWrapper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/StatusViewController.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/StatusViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/PostLinkViewController.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostLinkViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/PostPhotoViewController.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostPhotoViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Facebook Demo" normal i386
+cGenerateDSYMFile "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app.dSYM" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Facebook Demo"
+cTouch "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app"
+
+N/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBFeedPost.h
+c000000004D7388CD0000000000000521
+t1299417293
+s1313
+i<Foundation/Foundation.h>
+i"FBRequestWrapper.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBFeedPost.m
+c000000004D7393F60000000000000B12
+t1299420150
+s2834
+i"FBFeedPost.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBRequestWrapper.h
+c000000004D738EFC0000000000000341
+t1299418876
+s833
+i<Foundation/Foundation.h>
+i"Facebook.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBRequestWrapper.m
+c000000004D7388240000000000000CE2
+t1299417124
+s3298
+i"FBRequestWrapper.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/Facebook_DemoAppDelegate.h
+c000000004D6CE81200000000000001E2
+t1298982930
+s482
+i<UIKit/UIKit.h>
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/Facebook_DemoAppDelegate.m
+c000000004D6CE8120000000000000ABC
+t1298982930
+s2748
+i"Facebook_DemoAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/RootViewController.h
+c000000004D739531000000000000016A
+t1299420465
+s362
+i<UIKit/UIKit.h>
+i"StatusViewController.h"
+i"PostLinkViewController.h"
+i"PostPhotoViewController.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/RootViewController.m
+c000000004D7395590000000000000AD7
+t1299420505
+s2775
+i"RootViewController.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBDialog.bundle
+c000000004D321C0F0000000000000088
+t1295129615
+s136
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBDialog.h
+c000000004D3D661E0000000000001276
+t1295869470
+s4726
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBDialog.m
+c000000004D3D68CC000000000000583F
+t1295870156
+s22591
+i"FBDialog.h"
+i"Facebook.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBImageView.h
+c000000004D321C0F0000000000000170
+t1295129615
+s368
+i<UIKit/UIKit.h>
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBImageView.m
+c000000004D321C0F00000000000007A5
+t1295129615
+s1957
+i"FBImageView.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBLoginDialog.h
+c000000004D3D6404000000000000058E
+t1295868932
+s1422
+i"FBDialog.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBLoginDialog.m
+c000000004D3D65400000000000000E41
+t1295869248
+s3649
+i"FBDialog.h"
+i"FBLoginDialog.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBRequest.h
+c000000004D321C0F0000000000000CEA
+t1295129615
+s3306
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBRequest.m
+c000000004D53F7030000000000002C3B
+t1297348355
+s11323
+i"FBRequest.h"
+i"JSON.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/Facebook.h
+c000000004D6CED410000000000000CB2
+t1298984257
+s3250
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/Facebook.m
+c000000004D6CED51000000000000538A
+t1298984273
+s21386
+i"Facebook.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/NSString+HTML.h
+c000000004D321C0F00000000000008C9
+t1295129615
+s2249
+i<Foundation/Foundation.h>
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/NSString+HTML.m
+c000000004D321C0F0000000000003DB8
+t1295129615
+s15800
+i"NSString+HTML.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/JSON.h
+c000000004D321C0F00000000000008F9
+t1295129615
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSObject+SBJSON.h
+c000000004D321C0F0000000000000A01
+t1295129615
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSObject+SBJSON.m
+c000000004D53F7B100000000000008A2
+t1297348529
+s2210
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSString+SBJSON.h
+c000000004D321C0F0000000000000916
+t1295129615
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSString+SBJSON.m
+c000000004D53F7C60000000000000881
+t1297348550
+s2177
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJSON.h
+c000000004D321C0F0000000000000AED
+t1295129615
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJSON.m
+c000000004D321C0F0000000000001ABC
+t1295129615
+s6844
+i"SBJSON.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonBase.h
+c000000004D321C0F0000000000000B82
+t1295129615
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonBase.m
+c000000004D321C0F0000000000000AC1
+t1295129615
+s2753
+i"SBJsonBase.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonParser.h
+c000000004D321C0F0000000000000C0B
+t1295129615
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonParser.m
+c000000004D53F7CE00000000000036D2
+t1297348558
+s14034
+i"SBJsonParser.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonWriter.h
+c000000004D321C0F0000000000001140
+t1295129615
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonWriter.m
+c000000004D321C0F0000000000001F26
+t1295129615
+s7974
+i"SBJsonWriter.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Facebook_Demo_Prefix.pch
+c000000004D6CE812000000000000014C
+t1298982930
+s332
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/MainWindow.xib
+c000000004D6CE812000000000000600C
+t1298982930
+s24588
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostLinkViewController.h
+c000000004D7391910000000000000204
+t1299419537
+s516
+i<UIKit/UIKit.h>
+i"FBFeedPost.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostLinkViewController.m
+c000000004D7397AE0000000000000710
+t1299421102
+s1808
+i"PostLinkViewController.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostLinkViewController.xib
+c000000004D73928A000000000005C2FC
+t1299419786
+s377596
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostPhotoViewController.h
+c000000004D739713000000000000020B
+t1299420947
+s523
+i<UIKit/UIKit.h>
+i"FBFeedPost.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostPhotoViewController.m
+c000000004D7397B30000000000000716
+t1299421107
+s1814
+i"PostPhotoViewController.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/RootViewController.xib
+c000000004D6CE8120000000000004458
+t1298982930
+s17496
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/ScreenShotViewController.h
+c000000004D739496000000000000014A
+t1299420310
+s330
+i<UIKit/UIKit.h>
+i"FBFeedPost.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/ScreenShotViewController.m
+c000000004D739441000000000000038C
+t1299420225
+s908
+i"ScreenShotViewController.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/ScreenShotViewController.xib
+c000000004D7397EB0000000000005C9F
+t1299421163
+s23711
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/StatusViewController.h
+c000000004D738CE3000000000000019D
+t1299418339
+s413
+i<UIKit/UIKit.h>
+i"FBFeedPost.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/StatusViewController.m
+c000000004D739001000000000000074E
+t1299419137
+s1870
+i"StatusViewController.h"
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/StatusViewController.xib
+c000000004D738E38000000000005B5B4
+t1299418680
+s374196
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app
+t1299421179
+s408
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app.dSYM
+t1299421179
+s102
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/FBDialog.bundle
+t1299421175
+s102
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Facebook Demo
+t1299421179
+s176392
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Info.plist
+t1299421175
+s615
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/MainWindow.nib
+t1299421176
+s1515
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/PkgInfo
+t1299421175
+s8
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/PostLinkViewController.nib
+t1299421176
+s1707
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/RootViewController.nib
+t1299421176
+s979
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/ScreenShotViewController.nib
+t1299421177
+s1584
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/StatusViewController.nib
+t1299421176
+s1338
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/icodeblog-icon.png
+t1299421176
+s11849
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBDialog.o
+t1299421178
+s110456
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBFeedPost.o
+t1299421178
+s56420
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBImageView.o
+t1299421178
+s46592
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBLoginDialog.o
+t1299421178
+s45660
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBRequest.o
+t1299421178
+s43644
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBRequestWrapper.o
+t1299421178
+s56284
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/Facebook Demo.LinkFileList
+c000000004D7397F70000000000000C25
+t1299421175
+s3109
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/Facebook.o
+t1299421178
+s71304
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/Facebook_DemoAppDelegate.o
+t1299421178
+s53052
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSObject+SBJSON.o
+t1299421178
+s7912
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSString+HTML.o
+t1299421178
+s31588
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSString+SBJSON.o
+t1299421178
+s7836
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/PostLinkViewController.o
+t1299421178
+s50840
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/PostPhotoViewController.o
+t1299421178
+s50928
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/RootViewController.o
+t1299421178
+s46604
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJSON.o
+t1299421178
+s20196
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonBase.o
+t1299421178
+s13328
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonParser.o
+t1299421178
+s35916
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonWriter.o
+t1299421178
+s25664
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/ScreenShotViewController.o
+t2
+s0
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/StatusViewController.o
+t1299421178
+s49496
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/main.o
+t1299421178
+s6388
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/icodeblog-icon.png
+c000000004D73961A0000000000002E49
+t1299420698
+s11849
+
+N/Users/ayanok/Desktop/icodeblog post/Facebook Demo/main.m
+c000000004D6CE812000000000000016C
+t1298982930
+s364
+i<UIKit/UIKit.h>
+
+N/var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch.gch
+t1299421178
+s15461584
+
+NFacebook_Demo-Info.plist
+c000000004D6CE812000000000000038D
+t1298982930
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321113975#321113975#0(0"0(0#1#0"8669572128#0"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBDialog.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBDialog.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.244586
+e321113978.629522
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBDialog.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBDialog.m321113978#321113978#0(0"0(0#0#94"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBDialog.m8663916608#2293"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBDialog.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBDialog.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBFeedPost.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBFeedPost.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.720775
+e321113978.878633
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBFeedPost.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBFeedPost.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBFeedPost.m321113978#321113978#0(0"0(0#0#71"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBFeedPost.m8659864768#2272"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBFeedPost.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBFeedPost.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBImageView.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBImageView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.322505
+e321113978.445015
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBImageView.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBImageView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBImageView.m:98: warning: property 'url' requires method '-url' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@105"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBImageView.m321113978#321113978#0(226"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBImageView.m:98: warning: property 'url' requires method '-url' to be defined - use @synthesize, @dynamic or provide a method implementation1(22@114"Property 'url' requires method '-url' to be defined - use @synthesize, @dynamic or provide a method implementation321113978#0#226#0(6@97"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBImageView.m316822415#98#0#98#0#0"0(0#0#97"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBImageView.m8661286432#2299"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBImageView.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBImageView.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBLoginDialog.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBLoginDialog.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.324647
+e321113978.447472
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBLoginDialog.m321113978#321113978#0(0"0(0#0#99"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBLoginDialog.m8659275296#2303"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBLoginDialog.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBLoginDialog.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBRequest.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBRequest.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.431677
+e321113978.633821
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBRequest.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBRequest.m321113978#321113978#0(0"0(0#0#95"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBRequest.m8658156224#2295"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBRequest.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBRequest.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBRequestWrapper.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBRequestWrapper.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.731815
+e321113978.885657
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBRequestWrapper.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBRequestWrapper.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBRequestWrapper.m321113978#321113978#0(0"0(0#0#77"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBRequestWrapper.m8657887296#2284"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/FBRequestWrapper.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/FBRequestWrapper.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/Facebook.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/Facebook.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.163698
+e321113978.431390
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/Facebook.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/Facebook.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/Facebook.m:25: warning: 'kFBAppAuthURL' defined but not used
+lSLF07#2@102"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/Facebook.m321113978#321113978#0(145"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/Facebook.m:25: warning: 'kFBAppAuthURL' defined but not used1(22@36"'kFBAppAuthURL' defined but not used321113978#0#145#0(6@94"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/Facebook.m320677073#25#0#25#0#24"'*' defined but not used0(0#0#94"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/Facebook.m8664907232#2293"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/Facebook.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/Facebook.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/Facebook_DemoAppDelegate.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/Facebook_DemoAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.160577
+e321113978.322341
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/Facebook_DemoAppDelegate.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/Facebook_DemoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/Facebook_DemoAppDelegate.m321113978#321113978#0(0"0(0#0#85"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/Facebook_DemoAppDelegate.m8666740800#2300"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/Facebook_DemoAppDelegate.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/Facebook_DemoAppDelegate.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSObject+SBJSON.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSObject+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.447615
+e321113978.571553
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSObject+SBJSON.m321113978#321113978#0(0"0(0#0#93"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSObject+SBJSON.m8656581024#2299"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSObject+SBJSON.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSObject+SBJSON.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSString+HTML.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/NSString+HTML.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.445183
+e321113978.598013
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSString+HTML.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/NSString+HTML.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/NSString+HTML.m321113978#321113978#0(0"0(0#0#99"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/NSString+HTML.m8656625504#2303"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/NSString+HTML.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSString+HTML.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSString+SBJSON.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSString+SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.571791
+e321113978.651384
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSString+SBJSON.m321113978#321113978#0(0"0(0#0#93"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSString+SBJSON.m8654827488#2299"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/NSString+SBJSON.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/NSString+SBJSON.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/PostLinkViewController.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostLinkViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.826209
+e321113978.948712
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/PostLinkViewController.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostLinkViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostLinkViewController.m321113978#321113978#0(0"0(0#0#75"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostLinkViewController.m8654586176#2288"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostLinkViewController.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/PostLinkViewController.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/PostPhotoViewController.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostPhotoViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.878790
+e321113978.991796
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/PostPhotoViewController.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostPhotoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostPhotoViewController.m321113978#321113978#0(0"0(0#0#76"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostPhotoViewController.m8653247776#2290"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostPhotoViewController.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/PostPhotoViewController.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/RootViewController.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.162053
+e321113978.324497
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/RootViewController.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/RootViewController.m321113978#321113978#0(0"0(0#0#79"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/RootViewController.m8665573632#2288"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Classes/RootViewController.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/RootViewController.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJSON.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJSON.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.598176
+e321113978.720623
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJSON.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJSON.m321113978#321113978#0(0"0(0#0#84"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJSON.m8667042208#2281"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJSON.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJSON.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonBase.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonBase.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.629821
+e321113978.731653
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonBase.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonBase.m321113978#321113978#0(0"0(0#0#88"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonBase.m8666121472#2289"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonBase.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonBase.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonParser.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonParser.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.634475
+e321113978.825974
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonParser.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonParser.m321113978#321113978#0(0"0(0#0#90"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonParser.m8665164672#2293"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonParser.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonParser.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonWriter.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonWriter.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.651545
+e321113978.794813
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonWriter.m321113978#321113978#0(0"0(0#0#90"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonWriter.m8664238336#2293"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/JSON/SBJsonWriter.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/SBJsonWriter.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/ScreenShotViewController.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/ScreenShotViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/StatusViewController.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/StatusViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.795167
+e321113978.940651
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/StatusViewController.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/StatusViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/StatusViewController.m321113978#321113978#0(0"0(0#0#73"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/StatusViewController.m8656593760#2284"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/StatusViewController.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/StatusViewController.o"0#
+
+CCompileC "build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/main.o" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113978.159308
+e321113978.244391
+r1
+xCompileC
+xbuild/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/main.o
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/ayanok/Desktop/icodeblog post/Facebook Demo/main.m321113978#321113978#0(0"0(0#0#57"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/main.m8667783168#2252"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -include /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/main.m" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/MainWindow.xib"
+s321113975.811287
+e321113976.739659
+r1
+xCompileXIB
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib321113975#321113976#0(0"0(0#0#65"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/MainWindow.xib8666374752#682"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/MainWindow.nib" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/MainWindow.xib" --sdk "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk"0#
+
+CCompileXIB "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostLinkViewController.xib"
+s321113975.950501
+e321113976.800837
+r1
+xCompileXIB
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostLinkViewController.xib
+lSLF07#2@37"CompileXIB PostLinkViewController.xib321113975#321113976#0(0"0(0#0#77"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostLinkViewController.xib8665308544#706"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/PostLinkViewController.nib" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/PostLinkViewController.xib" --sdk "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk"0#
+
+CCompileXIB "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/RootViewController.xib"
+s321113975.812284
+e321113976.706471
+r1
+xCompileXIB
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib321113975#321113976#0(0"0(0#0#73"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/RootViewController.xib8666273408#698"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/RootViewController.nib" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/RootViewController.xib" --sdk "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk"0#
+
+CCompileXIB "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/ScreenShotViewController.xib"
+s321113976.706606
+e321113977.210561
+r1
+xCompileXIB
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/ScreenShotViewController.xib
+lSLF07#2@39"CompileXIB ScreenShotViewController.xib321113976#321113977#0(0"0(0#0#79"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/ScreenShotViewController.xib8668117344#710"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/ScreenShotViewController.nib" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/ScreenShotViewController.xib" --sdk "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk"0#
+
+CCompileXIB "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/StatusViewController.xib"
+s321113975.814087
+e321113976.784931
+r1
+xCompileXIB
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/StatusViewController.xib
+lSLF07#2@35"CompileXIB StatusViewController.xib321113975#321113976#0(0"0(0#0#75"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/StatusViewController.xib8665768160#702"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/StatusViewController.nib" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/StatusViewController.xib" --sdk "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk"0#
+
+CCpResource "build/Debug-iphonesimulator/Facebook Demo.app/FBDialog.bundle" "External Frameworks/Facebook SDK/FBDialog.bundle"
+s321113975.813198
+e321113975.950366
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Facebook Demo.app/FBDialog.bundle
+xExternal Frameworks/Facebook SDK/FBDialog.bundle
+lSLF07#2@53"Copy External Frameworks/Facebook SDK/FBDialog.bundle321113975#321113975#0(0"0(0#0#99"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBDialog.bundle8665938400#601"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp" -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/External Frameworks/Facebook SDK/FBDialog.bundle" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app"0#
+
+CCpResource "build/Debug-iphonesimulator/Facebook Demo.app/icodeblog-icon.png" icodeblog-icon.png
+s321113976.739804
+e321113976.747129
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Facebook Demo.app/icodeblog-icon.png
+xicodeblog-icon.png
+lSLF07#2@23"Copy icodeblog-icon.png321113976#321113976#0(0"0(0#0#69"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/icodeblog-icon.png8668066208#571"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp" -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/icodeblog-icon.png" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app"0#
+
+CGenerateDSYMFile "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app.dSYM" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Facebook Demo"
+s321113979.039847
+e321113979.123992
+r1
+xGenerateDSYMFile
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app.dSYM
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Facebook Demo
+lSLF07#2@131"GenerateDSYMFile "build/Debug-iphonesimulator/Facebook Demo.app.dSYM" "build/Debug-iphonesimulator/Facebook Demo.app/Facebook Demo"321113979#321113979#0(0"0(0#0#110"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Facebook Demo8659275552#490"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/usr/bin/dsymutil" "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Facebook Demo" -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app.dSYM"0#
+
+CLd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Facebook Demo" normal i386
+s321113978.991895
+e321113979.039734
+r1
+xLd
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Facebook Demo
+xnormal
+xi386
+lSLF07#2@115"Link /Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Facebook Demo321113978#321113979#0(0"0(0#0#0"8665588416#1064"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -arch i386 -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" "-L/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" -filelist "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Objects-normal/i386/Facebook Demo.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Facebook Demo"0#
+
+CProcessInfoPlistFile "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Info.plist" Facebook_Demo-Info.plist
+s321113975.803622
+e321113975.811141
+r1
+xProcessInfoPlistFile
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Info.plist
+xFacebook_Demo-Info.plist
+lSLF07#2@32"Process Facebook_Demo-Info.plist321113975#321113975#0(0"0(0#0#75"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Facebook_Demo-Info.plist8667242688#569"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Facebook_Demo-Info.plist -genpkginfo "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app/Info.plist"0#
+
+CProcessPCH /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch.gch Facebook_Demo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321113977.210741
+e321113978.158998
+r1
+xProcessPCH
+x/var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch.gch
+xFacebook_Demo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile Facebook_Demo_Prefix.pch321113977#321113978#0(0"0(0#0#75"/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Facebook_Demo_Prefix.pch8667292576#2124"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2" -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk" -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-generated-files.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-own-target-headers.hmap" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-all-target-headers.hmap" -iquote "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/Facebook Demo-project-headers.hmap" "-F/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/include" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources/i386" "-I/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Facebook Demo.build/Debug-iphonesimulator/Facebook Demo.build/DerivedSources" -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/Facebook_Demo_Prefix.pch" -o /var/folders/Mn/MnkK02EGFLGsaT4BoyZ-n++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Facebook_Demo_Prefix-bsjpweoegaqddualuubjbwofcqnw/Facebook_Demo_Prefix.pch.gch0#
+
+CTouch "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app"
+s321113979.124154
+e321113979.127272
+r1
+xTouch
+x/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app
+lSLF07#2@102"Touch /Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app321113979#321113979#0(0"0(0#0#0"8657438880#342"    cd "/Users/ayanok/Desktop/icodeblog post/Facebook Demo"    setenv PATH "/Developer iPhone SDK 4.2/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer iPhone SDK 4.2/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/ayanok/Desktop/icodeblog post/Facebook Demo/build/Debug-iphonesimulator/Facebook Demo.app"0#
+
