@@ -11,7 +11,7 @@
 static FBRequestWrapper *defaultWrapper = nil;
 
 @implementation FBRequestWrapper
-@synthesize isLoggedIn;
+@synthesize isLoggedIn, facebook;
 
 + (id) defaultManager {
 	
@@ -19,6 +19,14 @@ static FBRequestWrapper *defaultWrapper = nil;
 		defaultWrapper = [[FBRequestWrapper alloc] init];
 	
 	return defaultWrapper;
+}
+
+- (id) init {
+    self = [super init];
+    if (self) {
+        [self FBSessionBegin:self];
+    }
+    return self;
 }
 
 - (void) setIsLoggedIn:(BOOL) _loggedIn {
@@ -59,7 +67,8 @@ static FBRequestWrapper *defaultWrapper = nil;
 							 nil];
 	
 	//if no session is available login
-	[facebook authorize:FB_APP_ID permissions:permissions delegate:_delegate];	
+    [facebook authorize:permissions delegate:_delegate];
+    //[facebook authorize:permissions delegate:_delegate localAppId:FB_APP_ID];
 }
 
 - (void) FBLogout {

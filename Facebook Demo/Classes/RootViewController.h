@@ -10,6 +10,7 @@
 #import "StatusViewController.h"
 #import "PostLinkViewController.h"
 #import "PostPhotoViewController.h"
+#import "FriendsListViewController.h"
 
 @interface RootViewController : UITableViewController
 {

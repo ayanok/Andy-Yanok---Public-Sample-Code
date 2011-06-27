@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Facebook.h"
+#import "FBConnect.h"
 
 #define FB_APP_ID @"197366800287642"
 #define FB_API_KEY @"3269fff9ef3b6fc13255e670ebb44c4d"
@@ -19,6 +19,7 @@
 	BOOL isLoggedIn;
 }
 
+@property (nonatomic, retain) Facebook *facebook;
 @property (nonatomic, assign) BOOL isLoggedIn;
 
 + (id) defaultManager;

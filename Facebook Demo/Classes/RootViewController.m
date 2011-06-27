@@ -21,7 +21,7 @@
 
     self.title = @"Facebook Demo";
 	
-	postList = [NSArray arrayWithObjects:@"Status Post", @"Post A Link", @"Post A Photo", nil];
+	postList = [NSArray arrayWithObjects:@"Status Post", @"Post A Link", @"Post A Photo", @"Friends List With Blocks", nil];
 	[postList retain];
 }
 
@@ -86,6 +86,12 @@
 			[photo release];
 			break;
 		}
+        case 3:
+        {
+            FriendsListViewController *friends = [[FriendsListViewController alloc] init];
+            [self.navigationController pushViewController:friends animated:YES];
+            [friends release];
+        }
 		default:
 			break;
 	}
