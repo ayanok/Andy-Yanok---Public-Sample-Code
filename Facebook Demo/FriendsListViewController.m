@@ -13,6 +13,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"Friends With Blocks!";
+    
     FBRequestWrapper *wrapper = [FBRequestWrapper defaultManager];
     
     NSMutableDictionary *params = [[[NSMutableDictionary alloc] init] autorelease];
@@ -21,7 +23,9 @@
                                     method:@"GET" 
                                   callback:^(FBRequest *request, id result, NSError *error) 
     {
-        if ([result isKindOfClass:[NSArray class]]) {
+        NSLog(@"friends %@", result);
+        if ([result isKindOfClass:[NSDictionary class]]) {
+            friendsList = [[result objectForKey:@"data"] retain];
             [table reloadData];
         }
         
@@ -40,7 +44,7 @@
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section 
 {
-	return 0;
+	return [friendsList count];;
 }
 
 // Customize the appearance of table view cells.
@@ -52,7 +56,8 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    
+    NSDictionary *friend = [friendsList objectAtIndex:indexPath.row];
+    cell.textLabel.text = [friend objectForKey:@"name"];
 	
 	return cell;
 }
@@ -98,6 +103,7 @@ heightForRowAtIndexPath:(NSIndexPath *)indexPath
 }
 
 - (void) dealloc {
+    [friendsList release];
     [table release];
     [super dealloc];
 }

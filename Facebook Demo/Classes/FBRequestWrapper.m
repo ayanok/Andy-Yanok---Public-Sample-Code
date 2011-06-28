@@ -47,7 +47,7 @@ static FBRequestWrapper *defaultWrapper = nil;
 - (void) FBSessionBegin:(id<FBSessionDelegate>) _delegate {
 	
 	if (facebook == nil) {
-		facebook = [[Facebook alloc] init];
+		facebook = [[Facebook alloc] initWithAppId:FB_APP_ID];
 		
 		NSString *token = [[NSUserDefaults standardUserDefaults] objectForKey:@"access_token"];
 		NSDate *exp = [[NSUserDefaults standardUserDefaults] objectForKey:@"exp_date"];
@@ -67,8 +67,7 @@ static FBRequestWrapper *defaultWrapper = nil;
 							 nil];
 	
 	//if no session is available login
-    [facebook authorize:permissions delegate:_delegate];
-    //[facebook authorize:permissions delegate:_delegate localAppId:FB_APP_ID];
+    [facebook authorize:permissions delegate:_delegate shouldTrySafariOauth:NO];
 }
 
 - (void) FBLogout {
